@@ -12,10 +12,17 @@ export default class Hero extends Phaser.Physics.Arcade.Sprite {
     private knives?: Phaser.Physics.Arcade.Group
     private direction: string
 
+    private damageTime = 0
+
+    private hit = 0
+
+
+
 
     constructor(scene: Phaser.Scene, x: number, y: number, texture: string, frame?: string | number) {
         super(scene, x ,y, texture, frame)
         this.anims.play('hero-idle-down-anim')
+        this.setTint(0xffffff)
     }
 
     setKnives(knives: Phaser.Physics.Arcade.Group){
@@ -53,11 +60,30 @@ export default class Hero extends Phaser.Physics.Arcade.Sprite {
         const knife = this.knives.get(this.x, this.y, 'knife') as Phaser.Physics.Arcade.Image
         knife.body.y += 10
         knife.setRotation(angle)
-        knife.setVelocity(vector.x * 1000, vector.y * 1000)
+        knife.setVelocity(vector.x * 500, vector.y * 500)
+    }
+
+    handleDamage(dir: Phaser.Math.Vector2){
+
+        this.hit = 1
+        this.setVelocity(dir.x, dir.y)
+        this.setTint(0xff0000)
+
+        this.damageTime = 0
+        // this.setVelocity(dir.x, dir.y)
+        
+    }
+
+    protected preUpdate(time: number, delta: number) {
+        this.damageTime += delta
+
+        if(this.damageTime >= 200){
+            this.setTint(0xffffff)
+        }
     }
 
     update(cursors: Phaser.Types.Input.Keyboard.CursorKeys) {
-        const speed = 500
+        const speed = 200
 
         if(!cursors) {
             return false

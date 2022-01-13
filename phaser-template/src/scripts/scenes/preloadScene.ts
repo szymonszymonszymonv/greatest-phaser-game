@@ -10,6 +10,9 @@ export default class PreloadScene extends Phaser.Scene {
         this.load.spritesheet('hero-walk-side', 'assets/character/sprites/003 - Walk side - sheet.png', {frameWidth: 64, frameHeight: 64})
         this.load.spritesheet('hero-walk-up', 'assets/character/sprites/003 - Walk back - sheet.png', {frameWidth: 64, frameHeight: 64})
         this.load.spritesheet('hero-walk-down', 'assets/character/sprites/003 - Walk front - sheet.png', {frameWidth: 64, frameHeight: 64})
+       
+        this.load.atlas('chest', 'assets/chest/chest.png', 'assets/chest.json')
+        
         this.load.tilemapTiledJSON('dungeon', 'assets/dungeon-map1.json')
         this.load.tilemapTiledJSON('dungeon1', 'assets/dungeon-map2.json')
         this.load.image('knife', 'assets/knife.png')
