@@ -6,7 +6,14 @@ export default class PreloadScene extends Phaser.Scene {
     preload() {
         this.load.image('phaser-logo', 'assets/img/phaser-logo.png')
         this.load.image('tiles', 'assets/dungeon/0x72_16x16DungeonTileset.v4.png')
-        this.load.tilemapTiledJSON('dungeon', 'assets/dungeon-map.json')
+        this.load.image('tiles1', 'assets/dungeon/0x72_16x16DungeonTileset_walls.v2.png')
+        this.load.spritesheet('hero-walk-side', 'assets/character/sprites/003 - Walk side - sheet.png', {frameWidth: 64, frameHeight: 64})
+        this.load.spritesheet('hero-walk-up', 'assets/character/sprites/003 - Walk back - sheet.png', {frameWidth: 64, frameHeight: 64})
+        this.load.spritesheet('hero-walk-down', 'assets/character/sprites/003 - Walk front - sheet.png', {frameWidth: 64, frameHeight: 64})
+        this.load.tilemapTiledJSON('dungeon', 'assets/dungeon-map1.json')
+        this.load.tilemapTiledJSON('dungeon1', 'assets/dungeon-map2.json')
+        this.load.image('knife', 'assets/knife.png')
+        this.load.atlas('crab', 'assets/enemies/crab.png', 'assets/enemies/crab.json')
     }
 
   create() {

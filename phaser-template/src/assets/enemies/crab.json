@@ -1,0 +1,440 @@
+{
+	"textures": [
+		{
+			"image": "crab.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 424,
+				"h": 628
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Idle/Crab1.gif",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 384,
+						"h": 384
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 384,
+						"h": 384
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 384,
+						"h": 384
+					}
+				},
+				{
+					"filename": "Moving/CrabMoving1.gif",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 240,
+						"h": 240
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 240,
+						"h": 240
+					},
+					"frame": {
+						"x": 1,
+						"y": 387,
+						"w": 240,
+						"h": 240
+					}
+				},
+				{
+					"filename": "Attack/Crab_Attack1.gif",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 180,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 180
+					},
+					"frame": {
+						"x": 243,
+						"y": 387,
+						"w": 180,
+						"h": 180
+					}
+				},
+				{
+					"filename": "Moving/CrabMoving1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 20,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 20,
+						"h": 18
+					},
+					"frame": {
+						"x": 387,
+						"y": 1,
+						"w": 20,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Moving/CrabMoving2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 20,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 20,
+						"h": 18
+					},
+					"frame": {
+						"x": 387,
+						"y": 21,
+						"w": 20,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Moving/CrabMoving3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 20,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 20,
+						"h": 17
+					},
+					"frame": {
+						"x": 387,
+						"y": 41,
+						"w": 20,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Moving/CrabMoving4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 20,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 20,
+						"h": 15
+					},
+					"frame": {
+						"x": 387,
+						"y": 60,
+						"w": 20,
+						"h": 15
+					}
+				},
+				{
+					"filename": "Attack/AttackDown/Crab_AttackDown3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 387,
+						"y": 77,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Attack/Crab_Attack3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 387,
+						"y": 97,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Attack/Crab_Attack4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 387,
+						"y": 117,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Idle/Crab1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 387,
+						"y": 137,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Idle/Crab2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 387,
+						"y": 157,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Idle/Crab3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 387,
+						"y": 177,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Idle/Crab5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 387,
+						"y": 196,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Attack/AttackDown/Crab_AttackDown2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 18,
+						"h": 16
+					},
+					"frame": {
+						"x": 387,
+						"y": 215,
+						"w": 18,
+						"h": 16
+					}
+				},
+				{
+					"filename": "Idle/Crab4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 18,
+						"h": 16
+					},
+					"frame": {
+						"x": 387,
+						"y": 233,
+						"w": 18,
+						"h": 16
+					}
+				},
+				{
+					"filename": "Attack/AttackDown/Crab_AttackDown4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 18,
+						"h": 15
+					},
+					"frame": {
+						"x": 387,
+						"y": 251,
+						"w": 18,
+						"h": 15
+					}
+				},
+				{
+					"filename": "Attack/Crab_Attack1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 18,
+						"h": 15
+					},
+					"frame": {
+						"x": 387,
+						"y": 268,
+						"w": 18,
+						"h": 15
+					}
+				},
+				{
+					"filename": "Attack/AttackDown/Crab_AttackDown1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 18,
+						"h": 14
+					},
+					"frame": {
+						"x": 387,
+						"y": 285,
+						"w": 18,
+						"h": 14
+					}
+				},
+				{
+					"filename": "Attack/Crab_Attack2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 18,
+						"h": 13
+					},
+					"frame": {
+						"x": 387,
+						"y": 301,
+						"w": 18,
+						"h": 13
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:46c9e6c6f83529444935d9d82318fd44:c23a667eff3e676c6edd5222fff7bfd1:794f021834165d9f9643205b3de913b7$"
+	}
+}

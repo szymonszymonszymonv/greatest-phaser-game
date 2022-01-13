@@ -21,6 +21,7 @@
          "name":"Walls",
          "opacity":1,
          "type":"tilelayer",
+         "collides":true,
          "visible":true,
          "width":100,
          "x":0,
