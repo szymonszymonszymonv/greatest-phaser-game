@@ -4,30 +4,109 @@
 			"image": "chest.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 34,
-				"h": 50
+				"w": 19,
+				"h": 74
 			},
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "chest.png",
+					"filename": "chest-2.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 32,
-						"h": 48
+						"w": 17,
+						"h": 17
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 32,
-						"h": 48
+						"w": 17,
+						"h": 17
 					},
 					"frame": {
 						"x": 1,
 						"y": 1,
-						"w": 32,
-						"h": 48
+						"w": 17,
+						"h": 17
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chest-3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 17
+					},
+					"frame": {
+						"x": 1,
+						"y": 20,
+						"w": 17,
+						"h": 17
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chest-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 17,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 17,
+						"h": 16
+					},
+					"frame": {
+						"x": 1,
+						"y": 39,
+						"w": 17,
+						"h": 16
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chest-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 17,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 17,
+						"h": 16
+					},
+					"frame": {
+						"x": 1,
+						"y": 57,
+						"w": 17,
+						"h": 16
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
 					}
 				}
 			]
@@ -36,6 +115,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:8f7cfa279f06c00ed65986723430b927:b75040cb39e9088f29d8cd4c350818c8:d0951faa14b608797f96616a345e52d5$"
+		"smartupdate": "$TexturePacker:SmartUpdate:09402738d50ef4f80ecd81275991e612:c4bcdea89d695abdcb87b1785018a577:d0951faa14b608797f96616a345e52d5$"
 	}
 }

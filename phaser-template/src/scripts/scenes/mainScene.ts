@@ -15,6 +15,7 @@ export default class MainScene extends Phaser.Scene {
 
   private chest!: Phaser.Tilemaps.TilemapLayer
 
+
   constructor() {
     super({ key: 'MainScene' })
   }
@@ -81,6 +82,7 @@ export default class MainScene extends Phaser.Scene {
     crabs.get(850, 300, 'crab')
 
     
+    
 
   }
 
@@ -88,12 +90,17 @@ export default class MainScene extends Phaser.Scene {
     const hero = obj as Hero
     console.log(obj)
     console.log(other)
+
     
     // const map = this.make.tilemap({ key: 'dungeon' })
     // let tileset = map.addTilesetImage('dungeon-map1', 'tiles')
     // // const chests = map.createLayer('Chest', tileset, -100, -400);
     // const chests = map.destroyLayer('Chest');
-    this.map.destroyLayer(this.chest)
+    
+    console.log(this.map)
+    console.log(this.chest)
+    // other.destroy()
+    // this.map.destroyLayer(this.chest)
 
     
     
